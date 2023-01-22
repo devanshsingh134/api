@@ -17,8 +17,8 @@ the  following commented code also work same as above...
 
 '''
 # from django.shortcuts import render
-# from .serializers import StudentSerializer
-# from .models import Student
+# from .serializers import MemberSeriializer
+# from crud.models import Member
 # from rest_framework.decorators import api_view
 # from rest_framework.response import Response
 #
@@ -28,7 +28,7 @@ the  following commented code also work same as above...
 # # Create your views here.
 #
 # @api_view(['GET', 'POST', 'PUT', 'PATCH', 'DELETE'])
-# def StudentAPI(request, pk):
+# def MemberAPI(request, pk):
 #     if request.method=='GET':
 #
 #
